@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="heading">
+            <img src="https://img.freepik.com/premium-vector/drawing-laptop-with-colorful-background_410516-79195.jpg?w=740" alt="" class="heading_img">
+            <h1 class="heading_title">To-Do-List</h1>
+        </div>
+
+        <form class="form">
+            <div>
+                <label for="todo" class="form_label">~ Today I need to do ~</label>
+                <input type="text" 
+                class="form_input" 
+                id="todo" 
+                name="to-do" 
+                size="30" required />
+                <button class="button"><span>Submit</span></button>
+            </div>
+        </form>
+        <div>
+            <ul class="toDoList"></ul>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
